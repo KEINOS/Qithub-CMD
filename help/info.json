@@ -1,0 +1,30 @@
+{
+    "version": "2017-12-22.1644",
+    "help": "Usage: @qithub:help [options]\n[options]\n\t--help\tThis help\n\t--version\tVersion number",
+    "default": {
+        "extension": "php"
+    },
+    "require": {
+        "access_token": [
+            "qiita_srv",
+            "github_srv"
+        ],
+        "plugins": [
+            {
+                "name": "qiita-items",
+                "args": "popular 10",
+                "callback_key": "pupular-qiita-items"
+            },
+            {
+                "plugin_name": "qiita-items",
+                "plugin_args": "latest 10",
+                "callback_key": "latest-qiita-items"
+            }
+        ]
+    },
+    "plugins": [
+        "help",
+        "roll-dice",
+        "say-hello-world"
+    ]
+}

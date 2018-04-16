@@ -1,0 +1,11 @@
+{
+    "version": "20180118.1975",
+    "author": [
+        "https:\/\/github.com\/hidao80",
+        "https:\/\/github.com\/KEINOS"
+    ],
+    "default": {
+        "extension": "php"
+    },
+    "help": "dice_code で指定された面数と回数でサイコロを振った結果をJSON配列で返します。\n\nUsage:\nshell> php qithub.phar roll-dice <dice_code> [options]\ntoot > @qithub:roll-dice <dice_code> [options]\n\ndice_code:\n    サイコロを振る回数とサイコロの面数を'd'で区切ったコード。\n    例）６面のサイコロを３回振る場合の dice_code\n        3d6\n    利用例）\n        @qithub:roll-dice 3d6 --use_emoji\n\n[options]\n    --use_emoji  振った結果を絵文字で取得します。\n"
+}
