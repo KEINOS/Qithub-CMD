@@ -9,7 +9,7 @@
 
 [Qiita](https://qiita.com) の [Mastodon](https://ja.wikipedia.org/wiki/%E3%83%9E%E3%82%B9%E3%83%88%E3%83%89%E3%83%B3_(%E3%83%9F%E3%83%8B%E3%83%96%E3%83%AD%E3%82%B0)) インスタンスである「[Qiitadon](https://qiitadon.com)」で稼働している BOT「[Qithub (bot)](https://qiitadon.com/@qithub)」をメンションし、（`@qithub`に）続けてコマンド付きでトゥートすると実行結果が得られます。
 
-### トゥートコマンドの例
+### トゥートによる Qithub コマンドの実行例
 
 - `roll-dice` コマンドを実行したい場合のトゥート内容
 
