@@ -48,6 +48,10 @@
 
 現在、開発用の Wiki 資料を作成中です。
 
+## issue
+
+このリポジトリ（Qithub-CMD）に関する issue （不具合／要望／提案）は [Qithub-ORG の issue](https://github.com/Qithub-BOT/Qithub-ORG/issues) にあげてください。
+
 ## コマンド開発の禁止事項
 
 - 遊びではなく**イタズラや悪意のある目的の実装**は禁止
