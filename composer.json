@@ -1,0 +1,13 @@
+{
+    "name": "qithub-bot/qithub-cmd",
+    "description": "CLI commands that run under Qithub-BOT's specification.",
+    "type": "library",
+    "license": "CC-BY-SA-4.0",
+    "authors": [
+        {
+            "name": "Qithub-ORG",
+            "email": "qithub@keinos.com"
+        }
+    ],
+    "require": {}
+}
