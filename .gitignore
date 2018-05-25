@@ -1,1 +1,13 @@
-/vendor/
+composer.phar
+composer.lock
+box.phar
+/vendor/*
+
+*.dat
+*.data
+*.db
+*.sqlite
+*.sqlite3
+*.csv
+*.temp
+*.cache
