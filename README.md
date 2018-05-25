@@ -1,6 +1,6 @@
  [![Creative Commons License BY-SA 4.0 International](https://i.creativecommons.org/l/by-sa/4.0/80x15.png)](../LICENSE_OUTLINE.md "プラグインのライセンスについて")
 
-<kbd>お知らせ：2018/04/16 現在。Qithub-BOT のサーバー引っ越しのため、コマンドは実行できません。</kbd>
+<kbd>お知らせ：2018/04/16 現在。Qithub-BOT のサーバー引っ越しのため、コマンドは実行できません。2018/05/25 また実行できません。</kbd>
 
 ## Qithub コマンドについて
 
