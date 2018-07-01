@@ -2,6 +2,7 @@ composer.phar
 composer.lock
 box.phar
 /vendor/*
+.depre/*
 
 *.dat
 *.data
