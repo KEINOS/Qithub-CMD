@@ -9,5 +9,22 @@
             "email": "qithub@keinos.com"
         }
     ],
-    "require": {}
+    "require": {
+        "qithub/core": "dev-master"
+    },
+    "config": {
+        "vendor-dir": ".vendor"
+    },
+    "repositories": {
+        "github.com": {
+            "type": "vcs",
+            "url": "https://github.com/Qithub-BOT/Qithub-CORE"
+        }
+    },
+    "autoload": {
+        "files": [
+            ".includes/constants.php.inc",
+            ".includes/functions.php.inc"
+        ]
+    }
 }

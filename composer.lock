@@ -1,0 +1,79 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "58a2eb9a7b76aa4e0092a2d5b8a48a1c",
+    "packages": [
+        {
+            "name": "qithub/core",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Qithub-BOT/Qithub-CORE.git",
+                "reference": "89e2b39fae583343cccf84daf99551f4aa80c747"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Qithub-BOT/Qithub-CORE/zipball/89e2b39fae583343cccf84daf99551f4aa80c747",
+                "reference": "89e2b39fae583343cccf84daf99551f4aa80c747",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "conflict": {
+                "phpunit/php-timer": ">=2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "5.7.27",
+                "qithub/cmd": "master@dev"
+            },
+            "bin": [
+                "bin/Qithub-CORE.phar"
+            ],
+            "type": "library",
+            "extra": {
+                "asset-vcs-driver-options": {
+                    "github-no-api": true
+                },
+                "asset-pattern-skip-version": "(-build|-patch)"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Qithub\\": "src/"
+                }
+            },
+            "license": [
+                "CC-BY-SA-4.0"
+            ],
+            "authors": [
+                {
+                    "name": "Qithub-ORG",
+                    "email": "qithub@keinos.com"
+                }
+            ],
+            "description": "Core library for Qithub BOT.",
+            "homepage": "https://github.com/Qithub-BOT/Qithub-CORE",
+            "keywords": [
+                "core",
+                "qithub"
+            ],
+            "support": {
+                "source": "https://github.com/Qithub-BOT/Qithub-CORE/tree/master"
+            },
+            "time": "2018-05-28T06:25:59+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "qithub/core": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

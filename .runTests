@@ -1,0 +1,39 @@
+<?php
+/**
+ * これは Qithub コマンドのローカル開発用の PHP スクリプトです.
+ *
+ * コマンドラインから実行すると以下のことがブラウザから行えます。
+ *     - 簡易Webサーバとブラウザの起動
+ *     - ブラウザ経由で開発中の Qithub コマンドの実行テスト
+ *
+ * 実行の仕方
+ *     以下をコマンドラインで作業してください
+ *     1. カレント・ディレクトリをこのスクリプトと同じ階層に移動します。
+ *        `cd /path/to/this/dir`
+ *     2. このスクリプトを実行します。
+ *        `php .runTests`
+ *        ブラウザが立ち上がった後、WEB サーバが起動します。
+ *
+ */
+namespace qithub\cmd\tests;
+
+include_once('.vendor/autoload.php');
+
+use Qithub\fn   as fn;
+use Qithub\Core as core;
+
+$name_file_base    = basename(__FILE__);
+$name_dir_includes = '.includes';
+
+if (isCLI()) {
+    $name_file_include = 'lounchServerAndBrowser.php.inc';
+    include_once($name_dir_includes . DIR_SEP . $name_file_include);
+    die('Development Server Closed.');
+}
+
+if (! isCLI()) {
+    $name_file_include = 'showIndex.php.inc';
+    include_once($name_dir_includes . DIR_SEP . $name_file_include);
+}
+
+die;
