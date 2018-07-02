@@ -7,29 +7,15 @@ namespace Composer\Autoload;
 class ComposerStaticInitc270454f357ff1e3422c1ba6a4b48250
 {
     public static $files = array (
+        '7c25758edcf0e4c03c5400ae9c92845e' => __DIR__ . '/..' . '/qithub/core/src/Classes.php.inc',
+        '6d1d3ff31ff867e62bdff3ac8f96d35e' => __DIR__ . '/..' . '/qithub/core/src/Functions.php.inc',
         '71715d4c8778517b225fa14ed4e16b10' => __DIR__ . '/../..' . '/.includes/constants.php.inc',
         '5b7ea1064199cf668e4d182483228260' => __DIR__ . '/../..' . '/.includes/functions.php.inc',
-    );
-
-    public static $prefixLengthsPsr4 = array (
-        'Q' => 
-        array (
-            'Qithub\\' => 7,
-        ),
-    );
-
-    public static $prefixDirsPsr4 = array (
-        'Qithub\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/qithub/core/src',
-        ),
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitc270454f357ff1e3422c1ba6a4b48250::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitc270454f357ff1e3422c1ba6a4b48250::$prefixDirsPsr4;
 
         }, null, ClassLoader::class);
     }

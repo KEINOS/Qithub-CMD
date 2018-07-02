@@ -6,5 +6,4 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Qithub\\' => array($vendorDir . '/qithub/core/src'),
 );

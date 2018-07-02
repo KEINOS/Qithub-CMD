@@ -15,22 +15,45 @@ trait QithubSetup
             $msg .= $errstr . " on line " . $errline . " in file " . $errfile;
             throw new RuntimeException($msg);
         });
-    }    
+    }
 }
 
-class StringInsertionTest extends TestCase
+trait DataProvider
+{
+    static function provideDataJson()
+    {
+        return [
+            [ true , '[{"user_id":13,"username":"stack"},{"user_id":14,"username":"over"}]' ],
+            [ true , json_encode(array('hoge'))],
+            [ false, json_encode('hoge')],
+            [ false, '{background-color:yellow;color:#000;padding:10px;width:650px;}' ],
+            [ false, '0123456' ],
+            [ false, 12345 ],
+        ];
+    }
+}
+
+class ValidationJsonStringTest extends TestCase
+{
+    use QithubSetup;
+    use DataProvider;
+
+    /**
+     * @dataProvider provideDataJson
+     */
+    public function testIsJson($expect, $json)
+    {
+        $result = \Qithub\fn\isJson($json);
+        $this->assertSame($expect, $result);
+    }
+
+}
+
+class SampleTest extends TestCase
 {
     use QithubSetup;
 
-    public function testIsSame()
-    {
-        $message = 'Hello, World!';
-        $result  = Qithub\fn\return_message($message);
-
-        $this->assertSame($message, $result);
-    }
-
-    public function testIsString()
+    public function testReturnMessage()
     {
         $message = 'Hello, World!';
         $result  = Qithub\fn\return_message($message);

@@ -6,6 +6,8 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    '7c25758edcf0e4c03c5400ae9c92845e' => $vendorDir . '/qithub/core/src/Classes.php.inc',
+    '6d1d3ff31ff867e62bdff3ac8f96d35e' => $vendorDir . '/qithub/core/src/Functions.php.inc',
     '71715d4c8778517b225fa14ed4e16b10' => $baseDir . '/.includes/constants.php.inc',
     '5b7ea1064199cf668e4d182483228260' => $baseDir . '/.includes/functions.php.inc',
 );
