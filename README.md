@@ -47,7 +47,7 @@
 
 ## Qithub コマンドの開発資料
 
-現在、開発用の Wiki 資料を作成中です。
+- [Qithub コマンド Wiki](https://github.com/Qithub-BOT/Qithub-ORG/wiki/Qithub-%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E9%96%8B%E7%99%BA-Wiki--%5BTOP%5D) @ Qithub-ORG
 
 ## issue
 
@@ -61,6 +61,10 @@
 - パスワードやアクセストークンなどの**非公開情報をハードコーディングしないと動作しない**実装は禁止
 - Qithub のライセンス（CC BY-SA）とは**違うライセンスのスクリプトを含める**ことは禁止 [^1](#脚注)
 - Qiita / Qiitadon 含む、**サービスやユーザーに迷惑をかける**ことが明確な実装は禁止
+
+## 次項
+
+▶︎「[どんなコマンドを作ればいいの？](https://github.com/Qithub-BOT/Qithub-ORG/wiki/%E3%81%A9%E3%82%93%E3%81%AA%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E3%82%92%E4%BD%9C%E3%82%8C%E3%81%B0%E3%81%84%E3%81%84%E3%81%AE%EF%BC%9F)
 
 ## 脚注 <a name="脚注">
 
