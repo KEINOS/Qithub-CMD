@@ -64,7 +64,7 @@
 
 ## 次項
 
-▶︎「[どんなコマンドを作ればいいの？](https://github.com/Qithub-BOT/Qithub-ORG/wiki/%E3%81%A9%E3%82%93%E3%81%AA%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E3%82%92%E4%BD%9C%E3%82%8C%E3%81%B0%E3%81%84%E3%81%84%E3%81%AE%EF%BC%9F)
+▶︎「[どんなコマンドを作ればいいの？](https://github.com/Qithub-BOT/Qithub-ORG/wiki/%E3%81%A9%E3%82%93%E3%81%AA%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E3%82%92%E4%BD%9C%E3%82%8C%E3%81%B0%E3%81%84%E3%81%84%E3%81%AE%EF%BC%9F)」
 
 ## 脚注 <a name="脚注">
 
